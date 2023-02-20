@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100%;  
+}
+
+body {
+    font-family: "Karla", sans-serif;
+}
+
+.one {
+    margin: 7%;
+    border-radius: 10px;
+    width: 55%;
+}
+.box-one {
+    background-color: var(--LightGray);
+    padding: 30px;
+    text-align: justify;
+    height: 150px;
+}
+
+h3 {
+    color: var(--Cyan);
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: var(--BrightYellow);
+    margin-bottom: 10px;
+}
+
+
+.box-two {
+    display: flex;
+    height: 250px;
+    background-color: var(--Cyan);
+    color: var(--LightGray);
+}
+
+.access {
+    color: var(--GrayishBlue);
+}
+
+.card-one{
+    /* border-style: outset; */
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+}
+
+.card-two {
+    /* border-style: outset; */
+    width: 50%;
+    padding: 30px;
+    text-align: justify;
+    opacity: 0.7;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.full {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: var(--BrightYellow);
+    padding: 10px;
+    width: 100%;
+    border: none;
+    color: var(--LightGray);
+    border-radius: 5px;
+}
+
+
+.para {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+span {
+    color: var(--LightGray);
+    font-size: 15px;
+    opacity: 0.7;
+    margin-left: 10px;
+}
+
+@media (max-width: 375px) {
+    .box-one {
+        height: 250px;
+    }
+}
